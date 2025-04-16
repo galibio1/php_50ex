@@ -1,0 +1,26 @@
+/*font family start*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*font family end*/
+
+/*common css start*/
+:root{
+    --lat: "Lato", sans-serif;
+    --rob: "Roboto", sans-serif;
+
+    --ash: #8e8e8e;
+    --blk: #333333;
+}
+body{
+    font-family: var(--rob);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ash);
+}
+
+.headings{
+    color: aqua;
+    text-align: center;
+}
+/*common css end*/
+
